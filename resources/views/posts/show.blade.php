@@ -17,7 +17,7 @@
                 </div>
         </div>
         <div class='footer'>
-            <a href="/">戻る</a>　　//一覧画面に戻るリンク　
+            <a href="/">戻る</a>　　<!--一覧画面に戻るリンク-->
         </div>
     </body>
 </html>

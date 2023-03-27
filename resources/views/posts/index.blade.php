@@ -10,9 +10,9 @@
         <h1>Blog Name</h1>
         <a href="/posts/create">create</a>
         <div class='posts'>
-            @foreach($posts as $post)  //postsのデータ一つ一つを＄postという変数名で取得
+            @foreach($posts as $post)  <!--postsのデータ一つ一つを＄postという変数名で取得-->
                 <div class='post'>
-                    <a href="/posts/{{ $post->id}}"><h2 class='title'>{{ $post->title }}</h2></a> //arrow演算子
+                    <a href="/posts/{{ $post->id}}"><h2 class='title'>{{ $post->title }}</h2></a> <!--arrow演算子-->
                     <p class='body'>{{ $post->body }}</p>
                 </div>
             @endforeach
